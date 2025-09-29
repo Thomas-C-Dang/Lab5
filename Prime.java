@@ -12,7 +12,7 @@ import java.util.Scanner;
  * @version v1.0
  * @since 9/28/2025
  */
-public class Prime_Starter{ //Remove _Starter.
+public class Prime{ //Remove _Starter.
     public static void main (String[] args) {
         //boolean var isPrime
         boolean isPrime;

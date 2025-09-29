@@ -4,11 +4,16 @@ import java.util.Scanner;
 
 /**
  * Program Description
- * 1) Fill in steps
+ * 1) Scanner object is made
+ * 2) Gets the path to the input file
+ * 3) Program makes output file on the local :C drive
+ * 4) Prints out the results on said output file
+ * 5) Tells the user where it is on the :C drive
  * 
- * @author Name, optional email
+ * 
+ * @author Thomas
  * @version v1.0
- * @since date
+ * @since 9/28/2025
  */
 public class Grades{ //Remove _Starter.
     public static void main (String[] args) throws IOException{  //look how small main() is when we divide and conquer into (resusable) methods!  Only 4 lines!!!
@@ -51,8 +56,8 @@ public class Grades{ //Remove _Starter.
         //return String var from above
     
     /**
-     * <Put description here-see above as example>
-     * <@return - see above as example>
+     * @return name of Output File from scanner object
+     * 
      */
     public static String getOutFile(){ //for getting output file name
     
@@ -69,8 +74,9 @@ public class Grades{ //Remove _Starter.
     }
         
     /**
-     * <Put description in here for processFile method.  NOTE can be several lines if necessary
-     * <Need to create two @param entry lines>
+     * @param input file name
+     * @param output file name
+     * 
      */    
     public static void processFile(String input, String output)throws IOException{
         

@@ -32,7 +32,7 @@ public class FallingDistance{ //Remove _Starter.
         //for loop that runs for each second
         for (int i = 1; i <= numOfSecs; i++){
             distance = getDistance(i);
-            System.out.printf(i + "\t %.2f \n", distance);
+            System.out.printf(i + "\t \t %.1f \n", distance);
         }
         //  distance is assigned by getDistance() that passes current second from for loop
         //  Display current second and distance with nice formatting (2 dec places for distance).  printf will work well here
